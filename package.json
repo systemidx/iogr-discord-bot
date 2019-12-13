@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "babel src --out-dir build --extensions \".ts,.tsx\" --source-maps inline && cp -R node_modules build/",
+    "build": "babel src --out-dir build --extensions \".ts,.tsx\" --source-maps inline && cp -R node_modules build/"
   },
   "dependencies": {
     "discord.js": "11.3.2",
