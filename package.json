@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "build": "babel src --out-dir build --extensions \".ts,.tsx\" --source-maps inline"
+  },
+  "dependencies": {
+    "discord.js": "11.3.2",
+    "dotenv": "^8.2.0",
+    "twitch-wrapper-ts": "^1.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-numeric-separator": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.4",
+    "@types/node": "^12.12.14",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.2"
+  }
+}
