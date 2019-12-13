@@ -1,6 +1,6 @@
 trigger:
     - master
-    - develop
+    #- develop
 
 pool:
     vmImage: 'ubuntu-latest'
@@ -17,4 +17,4 @@ steps:
       displayName: 'npm install and build'
 
     - publish: $(System.DefaultWorkingDirectory)/build
-            artifact: build
+        artifact: build
